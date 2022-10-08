@@ -1,0 +1,80 @@
+/*
+Why i hate css 🤷‍♂️
+CSS is the most painful thing for a web developer especial when it comes
+to responsiveness
+
+I hate CSS because its css
+its easy to learn but hard to fix
+css bugs are annoying than cors error
+Oh lord help us, style our mind with css
+
+:)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+:root {
+    --primary-color: #1e2b1d;
+    --secondary-color: #263627;
+    --question-color:#ffffff;
+    --black-color:#ffffff;
+    --black:#011601;
+    --accent-color: #6fc878;
+    --error-color: #FE4343;
+    --text-color: #ffffff;
+    --text-opacity-color: #D1D1D1;
+    --profile:#000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    background-color: var(--question-color) !important;
+    color: var(--text-color) !important;
+    font-family: 'Nunito', sans-serif !important;
+    width:auto;
+
+  
+}
+
+@media (max-width: 100px) {
+    body {
+        padding: 0px !important;
+    }
+}
+
+
+/* custom scroll bar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: "green";
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--question-color);
+    border-radius: 5px;
+}
+
+
+/* custom selection  */
+
+::selection {
+    background: var(--accent-color);
+}
+
+button,
+input,
+textarea {
+    outline: none;
+    border: none;
+    background: none;
+}
