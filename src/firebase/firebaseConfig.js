@@ -1,4 +1,4 @@
-const firebaseConfigss = {
+const firebaseConfig = {
   apiKey: "AIzaSyALe-ngAbEo4qZlG4tVHs0RACBsVFRi5fo",
   authDomain: "farm-2427d.firebaseapp.com",
   projectId: "farm-2427d",
@@ -8,7 +8,7 @@ const firebaseConfigss = {
   measurementId: "G-J86WC5R3L6"
 };
 
-const firebaseConfig = {
+const firebaseConfigss = {
   apiKey: "AIzaSyCalXDob3ExuRrDaIVaQM4LWExHWW6agZQ",
   authDomain: "farmstack-556df.firebaseapp.com",
   projectId: "farmstack-556df",
