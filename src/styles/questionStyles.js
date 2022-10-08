@@ -36,7 +36,6 @@ export const QuestionPart = styled.div`
     overflow-x: scroll;
     
     
-
     span {
       border-radius: 10px;
       border: 2px solid var(--black);
