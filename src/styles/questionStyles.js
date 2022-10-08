@@ -122,7 +122,7 @@ export const QuestionPart = styled.div`
       }
       
       .share { 
-        color:black; 
+        color: #245b48; 
       }
       
       .delete { 

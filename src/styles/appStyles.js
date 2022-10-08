@@ -33,7 +33,7 @@ export const PostContainer = styled.div`
 `
 
 export const Post = styled.div`
-  background: var(--black);
+  background: #245b48;
   padding: 50px;
   border-radius: 25px;
   cursor: pointer;
